@@ -10,6 +10,8 @@ Full Stack Tinder Clone - with Node, Express, Tailwind
 
 #### `npm i nodemon -D`
 
+#### `npm i cors`
+
 ## Run Server Locally:
 
 #### `npm run dev`
