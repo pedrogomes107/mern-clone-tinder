@@ -8,6 +8,8 @@
 
 #### `npm install react-router-dom react-hot-toast axios zustand`
 
+#### `npm install lucide-react`
+
 ## Run Client Locally:
 
 #### `npm run dev`
