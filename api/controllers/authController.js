@@ -1,5 +1,6 @@
 import User from "../models/User.js";
 import jwt from "jsonwebtoken";
+import bcrypt from "bcryptjs";
 
 const signToken = (id) => {
   // jwt token
@@ -31,11 +32,12 @@ export const signup = async (req, res) => {
         message: "Password must be at least 6 characters",
       });
     }
+    const hashpassword = await bcrypt.hash(password, 10);
 
     const newUser = await User.create({
       name,
       email,
-      password,
+      password: hashpassword,
       age,
       gender,
       genderPreference,
