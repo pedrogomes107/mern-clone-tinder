@@ -1,8 +1,10 @@
 # Clone Tinder - Backend
 
-Full Stack Tinder Clone - with Node, Express, Tailwind
+Full Stack Tinder Clone - with MongoDB, Express, React, Node and Tailwind
 
 ## Demo:
+
+https://mern-clone-tinder.onrender.com
 
 ## Install npm packages:
 
