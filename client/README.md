@@ -18,6 +18,8 @@
 
 #### `npm i socket.io-client`
 
+#### `npm i emoji-picker-react`
+
 ## Run Client Locally:
 
 #### `npm run dev`
