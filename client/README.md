@@ -16,6 +16,8 @@
 
 #### `npm i -D daisyui@latest`
 
+#### `npm i socket.io-client`
+
 ## Run Client Locally:
 
 #### `npm run dev`
